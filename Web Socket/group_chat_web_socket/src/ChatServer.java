@@ -17,7 +17,7 @@ public class ChatServer {
             //Client connect to server
             while (true) {
                 Socket clientSocket = serverSocket.accept();
-                System.out.println("New client connected: " + clientSocket
+                System.out.println("New client has connected: " + clientSocket
                         .getInetAddress()
                         .getHostAddress());
 
